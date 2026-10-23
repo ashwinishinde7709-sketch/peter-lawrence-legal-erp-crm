@@ -1,0 +1,31 @@
+{
+  "routes": [
+    { "path": "/", "title": "Home" },
+    { "path": "/about", "title": "About Us" },
+    { "path": "/contact", "title": "Contact Us" },
+    { "path": "/careers", "title": "Careers" },
+    { "path": "/register", "title": "Client Registration" },
+    { "path": "/candidate-register", "title": "Candidate Registration" },
+    { "path": "/login", "title": "Login" },
+    { "path": "/app/:role", "title": "Role Dashboard" },
+    { "path": "/app/:role/users", "title": "Users" },
+    { "path": "/app/:role/clients", "title": "Client Management" },
+    { "path": "/app/:role/employees", "title": "Employees" },
+    { "path": "/app/:role/lawyers", "title": "Lawyer Management" },
+    { "path": "/app/:role/cases", "title": "Case Management" },
+    { "path": "/app/:role/hearings", "title": "Hearings" },
+    { "path": "/app/:role/appointments", "title": "Appointments" },
+    { "path": "/app/:role/documents", "title": "Documents" },
+    { "path": "/app/:role/billing", "title": "Billing" },
+    { "path": "/app/:role/invoices", "title": "Invoices" },
+    { "path": "/app/:role/recruitment", "title": "Recruitment" },
+    { "path": "/app/:role/payroll", "title": "Payroll" },
+    { "path": "/app/:role/reports", "title": "Reports & Analytics" },
+    { "path": "/app/:role/expenses", "title": "Expenses" },
+    { "path": "/app/:role/attendance", "title": "Attendance" },
+    { "path": "/app/:role/leave", "title": "Leave" },
+    { "path": "/app/:role/tasks", "title": "Tasks" },
+    { "path": "/app/:role/profile", "title": "Profile" },
+    { "path": "/app/:role/settings", "title": "Settings" }
+  ]
+}

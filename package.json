@@ -1,0 +1,10 @@
+{
+  "name":"peter-lawrence-legal-erp",
+  "private":true,
+  "scripts":{
+    "install:all":"npm --prefix backend install && npm --prefix frontend install",
+    "seed":"npm --prefix backend run seed",
+    "dev":"concurrently \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\""
+  },
+  "devDependencies":{"concurrently":"^9.1.2"}
+}

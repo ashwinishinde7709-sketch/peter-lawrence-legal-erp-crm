@@ -1,0 +1,9 @@
+{
+  "name": "peter-lawrence-legal-erp-frontend",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": { "dev": "vite --host 0.0.0.0 --port 3000", "build": "vite build", "preview": "vite preview --host 0.0.0.0 --port 3000" },
+  "dependencies": { "@vitejs/plugin-react": "latest", "react": "latest", "react-dom": "latest", "react-icons": "latest", "react-router-dom": "latest", "recharts": "latest", "vite": "latest" },
+  "devDependencies": {}
+}
