@@ -1,4 +1,4 @@
-const API = '/api';
+const API = 'https://peter-lawrence-legal-erp-crm.onrender.com/api';
 const getToken = () => localStorage.getItem('pl-token');
 const pendingGets = new Map();
 
